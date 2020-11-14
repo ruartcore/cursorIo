@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+       
+        	<link rel="stylesheet" type="text/css" href="/style.css">
+	        <script src="/rand.js"></script>
+			<script src="/Cursor.js"></script>
+			<script src="/inetpacket.js"></script>
+        	<script src="/usersProvider.js"></script>
+            <script src="/socket.io/socket.io.js"></script>
+	        <script src="/init.js"></script>
+        	<script src="/update.js"></script>
+            <script src="/action.js"></script>
+        <title>CursorIo</title>
+    </head>
+    <body>
+        <h2 id = "room_name_text" >Rooms</h2>
+        <div id="connectbar">
+        <input type="text" id="room_name" value="room">
+<div id="button" style="
+background-color:gray;
+width:150px;
+height:25px;
+text-align:center;
+border-radius:25px;
+border: 1px solid black;
+margin-top: 25px;
+">Connect</div>
+</div>
+        <br>
+        <p id="event"></p>
+    </body>
+</html>
